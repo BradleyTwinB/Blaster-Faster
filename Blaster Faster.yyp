@@ -20,7 +20,7 @@
     {"id":{"name":"s_laser_powerup","path":"sprites/s_laser_powerup/s_laser_powerup.yy",},"order":1,},
     {"id":{"name":"s_armor_strip5","path":"sprites/s_armor_strip5/s_armor_strip5.yy",},"order":6,},
     {"id":{"name":"s_enemy_laser","path":"sprites/s_enemy_laser/s_enemy_laser.yy",},"order":9,},
-    {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},"order":3,},
+    {"id":{"name":"Obj_explosion_particle","path":"objects/Obj_explosion_particle/Obj_explosion_particle.yy",},"order":3,},
     {"id":{"name":"a_music","path":"sounds/a_music/a_music.yy",},"order":1,},
     {"id":{"name":"s_explosion_center","path":"sprites/s_explosion_center/s_explosion_center.yy",},"order":8,},
     {"id":{"name":"a_enemy_laser","path":"sounds/a_enemy_laser/a_enemy_laser.yy",},"order":4,},
