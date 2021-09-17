@@ -24,6 +24,7 @@
     {"id":{"name":"a_music","path":"sounds/a_music/a_music.yy",},"order":1,},
     {"id":{"name":"Bounce_Off_Walls","path":"scripts/Bounce_Off_Walls/Bounce_Off_Walls.yy",},"order":0,},
     {"id":{"name":"s_explosion_center","path":"sprites/s_explosion_center/s_explosion_center.yy",},"order":8,},
+    {"id":{"name":"Create_Laser","path":"scripts/Create_Laser/Create_Laser.yy",},"order":1,},
     {"id":{"name":"a_enemy_laser","path":"sounds/a_enemy_laser/a_enemy_laser.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

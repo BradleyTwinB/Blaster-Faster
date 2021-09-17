@@ -6,6 +6,8 @@ image_angle = mouse_direction;
 //This activates the thrust and it switches between frame 1 and 0 on the ship if you stop or go
 var thrust = mouse_check_button(mb_right);
 image_index = thrust;
+
+
 //Uses the right mouse button to move/boost
 if(thrust){
 	motion_add(image_angle,acceleration);
@@ -19,4 +21,9 @@ if(thrust){
 	instance_create_layer(_x ,_y, "Effects", Obj_explosion_particle);
 }else{
 	friction = 0.05;
+}
+
+var _fire_laser = mouse_check_button_pressed(mb_left);
+if(_fire_laser) {
+	Create_Laser();
 }
