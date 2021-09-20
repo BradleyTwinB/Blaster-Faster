@@ -4,7 +4,7 @@ var mouse_direction = point_direction(x,y,mouse_x,mouse_y);
 image_angle = mouse_direction;
 
 //This activates the thrust and it switches between frame 1 and 0 on the ship if you stop or go
-var thrust = mouse_check_button(mb_right);
+var thrust = mouse_check_button(mb_left);
 image_index = thrust;
 
 
@@ -25,5 +25,5 @@ if(thrust){
 
 var _fire_laser = mouse_check_button_pressed(mb_left);
 if(_fire_laser) {
-	Create_Laser();
+	_fire_laser();
 }
