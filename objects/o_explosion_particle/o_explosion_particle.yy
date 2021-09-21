@@ -35,7 +35,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_explosion_particle",
+  "name": "o_explosion_particle",
   "tags": [],
   "resourceType": "GMObject",
 }
