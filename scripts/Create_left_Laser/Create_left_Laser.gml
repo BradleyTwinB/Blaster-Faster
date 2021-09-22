@@ -1,6 +1,6 @@
-function Create_right_Laser() {
+function Create_left_Laser() {
 	var _distance = sprite_get_width(sprite_index)/2
-	var _angle = 60;
+	var _angle = -60;
 
 	var _x = x + lengthdir_x(_distance, image_angle - _angle) + hspeed;
 	var _y = y + lengthdir_y(_distance, image_angle - _angle) + vspeed;

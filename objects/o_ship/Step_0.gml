@@ -25,5 +25,5 @@ if(thrust){
 
 var _fire_laser = mouse_check_button_pressed(mb_left);
 if(_fire_laser){
-	Create_Right_Laser();
+	Fire_laser();
 } 

@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Create_right_Laser",
+  "name": "Fire_laser",
   "tags": [],
   "resourceType": "GMScript",
 }
