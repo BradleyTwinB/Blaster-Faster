@@ -23,11 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_ship","path":"objects/o_ship/o_ship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"max_armor","path":"objects/o_ship_parent/o_ship_parent.yy",},"objectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"armor","path":"objects/o_ship_parent/o_ship_parent.yy",},"objectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"max_speed1","path":"objects/o_ship_parent/o_ship_parent.yy",},"objectId":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

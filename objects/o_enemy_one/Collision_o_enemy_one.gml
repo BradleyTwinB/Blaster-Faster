@@ -1,1 +1,1 @@
-bounce_off_objects(other, acceleration, max_speed);
+bounce_off_objects(other, acceleration1, max_speed1);

@@ -10,15 +10,18 @@ image_index = thrust;
 
 //Uses the right mouse button to move/boost
 if(thrust){
-	motion_add(image_angle,acceleration);
-	if (speed > max_speed){
-		speed = max_speed;
+	motion_add(image_angle,acceleration1);
+	if (speed > max_speed1){
+		speed = max_speed1;
 	}
+	
+repeat (2){
 	var _offset = random_range(-4, 4);
 	var _length1 = -14;
 	var _x = x + 1 +lengthdir_x(_length1, image_angle) + _offset;
 	var _y = y + lengthdir_y(_length1, image_angle) + _offset;
 	instance_create_layer(_x ,_y, "Effects", o_explosion_particle);
+}
 }else{
 	friction = 0.05;
 }
